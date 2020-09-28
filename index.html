@@ -6,10 +6,182 @@
       href="https://fonts.googleapis.com/css?family=Poppins"
       rel="stylesheet"
     />
-    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>project 1</title>
   </head>
-
   <body>
-    <!-- write some HTML! -->
+    <div class="container">
+      <header>
+        <img src="./imgs/logo.svg" alt="logo" class="logo" />
+        <nav class="desktop-nav">
+          <a href="#">Features</a>
+          <a href="#">Advantages</a>
+          <a href="#">Gallery</a>
+          <a href="#">Products</a>
+        </nav>
+        <nav class="mobile-nav">
+          <div class="dropdown">
+            <ul class="nav-items">
+              <li>
+                <button class="dropdown-label" aria-label="Show menu">
+                  <img src="./imgs/menu.svg" />
+                </button>
+                <ul class="dropdown-content">
+                  <li class="dropdown-content--item">Features</li>
+                  <li class="dropdown-content--item">Advantages</li>
+                  <li class="dropdown-content--item">Gallery</li>
+                  <li class="dropdown-content--item">Products</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="intro">
+        <img src="./imgs/bg.jpg" alt="rocket" class="rocket" />
+
+        <div class="intro-text">
+          <h1>Introducing Falcon 9</h1>
+          <div class="intro-body">
+            <h2>We make dreams come true</h2>
+            <div class="lorem">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="features">
+        <div class="box">
+          <img src="./imgs/icon_check.svg" class="icon" />
+          <h3>Amazing feature 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac
+            malesuada tellus. Quisque maximus, orci sollicitudin fermentum
+            consectetur, mauris libero sodales augue, non interdum mauris neque
+            ac sapien.
+          </p>
+          <button class="feature-button">Get it</button>
+        </div>
+        <div class="box">
+          <img src="./imgs/icon_reload.svg" class="icon" />
+
+          <h3>Amazing feature 2</h3>
+          <p>
+            Donec sit amet iaculis libero. Phasellus elementum tortor ut dui
+            posuere, eu mollis quam tristique.
+          </p>
+          <button class="feature-button">Sell it</button>
+        </div>
+        <div class="box">
+          <img src="./imgs/icon_fingerprint.svg" class="icon" />
+          <h3>Amazing feature 3</h3>
+          <p>
+            Vivamus ornare gravida interdum. Fusce volutpat suscipit est, nec
+            euismod neque varius a. Pellentesque et facilisis eros. Sed faucibus
+            maximus tellus, sed euismod lorem lacinia vel.
+          </p>
+          <button class="feature-button">Do it</button>
+        </div>
+      </div>
+      <div class="description">
+        <div class="cool-text">
+          <h1>Some cool text</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="looks-cool">
+          <h4 class="cool">This looks cool</h4>
+          <p>Hover me if you like random cool animations</p>
+        </div>
+        <div class="slick">
+          <h1>Slick gradient</h1>
+          <p>Lorem ipsum?</p>
+        </div>
+      </div>
+      <div id="images">
+        <div class="image-row">
+          <div class="image-container">
+            <img src="./imgs/tesla.jpg" class="picture" />
+            <p>Our flagship car, the Model S</p>
+          </div>
+
+          <div class="image-container">
+            <img src="./imgs/procat.jpg" class="picture" />
+            <p>Cool cat</p>
+          </div>
+          <div class="image-container">
+            <img src="./imgs/hyperloop.jpg" class="picture" />
+            <p>Introducing: The Hyperloop</p>
+          </div>
+        </div>
+        <div class="image-row">
+          <div class="image-container">
+            <img src="./imgs/sneakycat.jpg" class="picture" />
+            <p>So sneaky</p>
+          </div>
+          <div class="image-container">
+            <img src="./imgs/falconrocket.jpeg" class="picture" />
+            <p>BFR - Big Falcon Rocket</p>
+          </div>
+          <div class="image-container">
+            <img src="./imgs/funnycat.jpg" class="picture" />
+            <p>So much fun</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mail">
+        <form class="form">
+          <label for="email">Register for our mailing list:</label>
+          <div>
+            <input id="email" name="email" type="email" />
+            <button type="send">Send</button>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" id="yes" name="yes" value="yes" />
+            <label for="choose">Send me daily cat images</label><br />
+          </div>
+        </form>
+      </div>
+      <div class="terms">
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Legal notes</a></li>
+          <li><a href="#">Copyright</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Legal notes</a></li>
+          <li><a href="#">Copyright</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Legal notes</a></li>
+          <li><a href="#">Copyright</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Legal notes</a></li>
+          <li><a href="#">Copyright</a></li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
